@@ -18,7 +18,6 @@ public class MenuUIHandler : MonoBehaviour
     public void StartNew()
     {
         SceneManager.LoadScene(1);
-        Manager.Instance.SaveData();
     }
 
     public void Exit()
